@@ -1,0 +1,122 @@
+@font-face {
+    font-family: roboto;
+    src: url(/assets/fonts/roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: montserrat;
+    src: url(/assets/fonts/montserrat/Montserrat-Regular.otf);
+}
+@font-face {
+    font-family: montserrat-light;
+    src: url(/assets/fonts/montserrat/Montserrat-Light.otf);
+}
+@font-face {
+    font-family: roboto-light;
+    src: url(/assets/fonts/roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: roboto-thin;
+    src: url(/assets/fonts/roboto/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: montserrat-strong;
+    src: url(/assets/fonts/montserrat/Montserrat-Bold.otf);
+}
+@font-face {
+    font-family: montserrat-hairline;
+    src: url(/assets/fonts/montserrat/Montserrat-Hairline.otf);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'montserrat-light'
+}
+body{
+    font-family: 'roboto-light';
+    line-height: 200%;
+}
+.montserrat{
+    font-family: 'montserrat'
+}
+.montserrat-light{
+    font-family: 'montserrat-light'
+}
+.montserrat-strong{
+    font-family: 'montserrat-strong'
+}
+.montserrat-hairline{
+    font-family: 'montserrat-hairline'
+}
+.roboto{
+    font-family: 'roboto'
+}
+strong{
+    font-family: 'roboto';
+}
+.roboto-thin{
+    font-family: 'roboto-thin';
+}
+ul {
+    list-style: none;
+}
+.bg-dark-primary{
+    background-color: #006ce0;
+}
+.easter-egg{
+    border: 3px solid #f2f2f2;
+    width: 7.5%;
+}
+.xs{
+    font-size: 0.75em;
+}
+.bottom-icons{
+    height: 3.5em;
+    width: 3.5em;
+}
+.banks{
+    width: 3.5em;
+    /* height: 2em; */
+}
+.mycustom {
+    position: relative;
+}
+.mycustom input[type=text] {
+    border: none;
+    width: 100%;
+    height: 3em;
+    padding-right: 123px;
+}
+.mycustom .input-group-prepend {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    bottom: 4px;z-index:9;
+}
+.fa-facebook-square{
+    color: #3b4998
+}
+.fa-twitter-square{
+    color:#00acee
+}
+.fa-google-plus-square{
+    color:#db4437
+}
+.laravel-paragraph{
+    line-height: 200%;
+}
+.linux-paragraph{
+    line-height: 1.5;
+}
+.display-5{
+    font-size: 1.8em;
+}
+.display-6{
+    font-size: 1.4em;
+}
+.display-7{
+    font-size: 1em;
+}
+#bestSellerTag{
+    width: 4em;
+    height:4em;
+    position: absolute;
+    z-index: 2000;
+}
